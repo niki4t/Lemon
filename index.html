@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel='icon' href='img/favicon.ico' type='image/x-icon'>
+	<title>Lemon</title>
+</head>
+<body>
+	<header class="page-header">
+		<section class="header-logo container">
+			<h2 class="visually-hidden">Lemon</h2>
+			<img class="heade-logo__main-img" width="382" height="159" src="img/logo-main.png" alt="Lemon_logo">
+		</section>
+		<nav class="header-nav container">
+			<img class="header-nav__main-img" width="87" height="36" src="img/logo-small.png" alt="Lemon_logo">
+			<ul class="header-nav__list">
+				<li class="header-nav__item">
+					<a class="header-nav__link" href="#home">Home</a>
+				</li>
+				<li class="header-nav__item">
+					<a class="header-nav__link" href="#recipes">Recipes</a>
+				</li>
+				<li class="header-nav__item">
+					<a class="header-nav__link" href="#photo">Photo Gallery</a>
+				</li>
+				<li class="header-nav__item">
+					<a class="header-nav__link" href="#videos">Videos</a>
+				</li>
+				<li class="header-nav__item">
+					<a class="header-nav__link" href="">All Categories</a>
+				</li>
+			</ul>
+			<form class="header-nav__form" action="post"> 
+                <input class="header-nav__input" type="text" name="search" placeholder="Find a recipe"> 
+            </form>
+		</nav>
+	</header>
+	<main class="page-main">
+		<section class="recipes container" id="home">
+			<h2 class="visually-hidden">Main Recipes</h2>
+			<img class="recipes__main-img" width="1120" height="438" src="img/recipes-img-1.jpg" alt="Recipes-img-1">
+			<div class="recipes__wrapper">
+				<img class="recipes__logo" width="252" height="105" src="img/logo-main.png" alt="Lemon_logo">
+				<h3 class="recipes__title">Bananas Foster Ice Cream Cake</h3>
+				<p class="recipes__description">If you're looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.</p>
+			</div>
+			<a class="recipes__link" href="">Get It Recipe</a>
+			<div class="recipes__toggle">
+				<button class="recipes__toggle-button"></button>
+				<button class="recipes__toggle-button recipes__toggle-button--current"></button>
+				<button class="recipes__toggle-button"></button>
+			</div>
+		</section>
+
+
+		<section class="block container" id="recipes">
+			<h2 class="block__main-title title">New Recipes</h2>
+			<div class="block__wrapper">
+				<article class="block__item">
+					<a class="block__link" href="">
+						<img class="block__img" width="313" height="208" src="img/block-img-1.jpg" alt="Yogurt_Pie">
+						<h3 class="block__title">Raspberry & Cream Frozen Yogurt Pie</h3>
+					</a>
+					<p class="block__description">
+						<span class="block__span block__span--time">35mins</span>
+						<span class="block__span block__span--comment">7</span>
+						<span class="block__span block__span--view">14</span>
+					</p>
+				</article>
+				<article class="block__item">
+					<a class="block__link" href="">
+						<img class="block__img" width="313" height="208" src="img/block-img-2.jpg" alt="Ice-Cream_Sandwich">
+						<h3 class="block__title">Giant Ice Cream Sandwich</h3>
+					</a>
+					<p class="block__description">
+						<span class="block__span block__span--time">20mins</span>
+						<span class="block__span block__span--comment">4</span>
+						<span class="block__span block__span--view">356</span>
+					</p>
+				</article>
+				<article class="block__item">
+					<a class="block__link" href="">
+						<img class="block__img" width="313" height="208" src="img/block-img-3.jpg" alt="Sandwich_Cake">
+						<h3 class="block__title">Dark Chocolate Crunch Ice Cream Sandwich Cake</h3>
+					</a>
+					<p class="block__description">
+						<span class="block__span block__span--time">15mins</span>
+						<span class="block__span block__span--comment">4</span>
+						<span class="block__span block__span--view">167</span>
+					</p>
+				</article>
+			</div>
+			<a class="block__main-link main-link" href="">Get More</a>
+		</section>
+
+
+		<section class="photo container" id="photo">
+			<h2 class="photo__title title">Photo Gallery</h2>
+			<div class="photo__wrapper">
+				<img class="photo__img" width="313" height="208" src="img/block-img-3.jpg" alt="Sandwich_Cake">
+				<img class="photo__img" width="313" height="208" src="img/block-img-1.jpg" alt="Yogurt_Pie">
+				<img class="photo__img" width="313" height="208" src="img/block-img-2.jpg" alt="Ice-Cream_Sandwich">
+			</div>
+			<a class="photo__link main-link" href="">Get More</a>
+		</section>
+
+		<section class="video container" id="videos">
+			<h2 class="video__title title">Videos</h2>
+			<div class="video__wrapper">
+				<iframe width="313" height="208" src="https://www.youtube.com/embed/VD3GZONeTbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="313" height="208" src="https://www.youtube.com/embed/B4lcU8EF5yA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="313" height="208" src="https://www.youtube.com/embed/TxDjVdDfAQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<a class="video__link main-link" href="">Get More</a>
+		</section>
+
+	</main>
+	<footer class="page-footer container">
+		<nav class="footer-nav">
+			<img class="footer-nav__main-img" width="87" height="36" src="img/logo-small-white.png" alt="Lemon_logo">
+			<ul class="footer-nav__list">
+				<li class="footer-nav__item">
+					<a class="footer-nav__link" href="#home">Home</a>
+				</li>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link" href="#recipes">Recipes</a>
+				</li>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link" href="#photo">Photo Gallery</a>
+				</li>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link" href="#videos">Videos</a>
+				</li>
+				<li class="footer-nav__item">
+					<a class="footer-nav__link" href="">All Categories</a>
+				</li>
+			</ul>
+			<p class="footer-nav__description"> 
+                © 2016-2017 LEMON. All rights reserved
+            </p>
+		</nav>
+	</footer>
+
+
+</body>
+</html>
